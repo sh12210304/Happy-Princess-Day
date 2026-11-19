@@ -1,13 +1,5 @@
 # 👑 National Princess Day Surprise
 
-<div align="center">
-
-## 🌐 **[👉 VIEW LIVE SITE 👈](https://happy-princess-dayy.netlify.app/)**
-
-[![Live Site](https://img.shields.io/badge/🌐_Live_Site-happy--princess--dayy.netlify.app-FF69B4?style=for-the-badge)](https://happy-princess-dayy.netlify.app/)
-
-</div>
-
 A delightful single-page Next.js site to celebrate National Princess Day with a special surprise message, beautiful animations, and confetti!
 
 ## ✨ Features
@@ -98,41 +90,7 @@ Add your own images to `public/assets/` and update the image paths in the respec
 - Music covers: `components/Playlist.tsx`
 - Flip card images: `components/FlipCards.tsx`
 
-## 🚢 Deployment
 
-### 🌐 Live Site
-
-**👉 [View Live Site](https://happy-princess-dayy.netlify.app/) 👈**
-
-The site is currently deployed on Netlify and accessible at the URL above.
-
-### Deploy to Netlify
-
-1. Push your code to GitHub
-2. Go to [netlify.com](https://netlify.com)
-3. Click "New site from Git" and connect your repository
-4. Netlify will automatically detect Next.js and deploy
-5. Your site will be live with a custom domain or netlify.app subdomain
-
-### Deploy to Vercel (Alternative)
-
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com)
-3. Click "New Project" and import your repository
-4. Vercel will automatically detect Next.js and deploy
-
-**One-click deploy:**
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=YOUR_REPO_URL)
-
-### Deploy to Render
-
-1. Create a new account at [render.com](https://render.com)
-2. Click "New +" → "Web Service"
-3. Connect your GitHub repository
-4. Use these settings:
-   - **Build Command:** `npm run build`
-   - **Start Command:** `npm start`
-   - **Environment:** Node
 
 ## 📁 Project Structure
 
@@ -175,16 +133,6 @@ princess-day/
 - **Framer Motion** - Smooth animations
 - **React Hot Toast** - Toast notifications
 
-## ☕ Support This Project
-
-If this project helped you, consider supporting:
-
-- **🇮🇳 For users in India:** [Buy Me a Chai](https://buymeachai.ezee.li/rushi45)
-- **🌍 For users outside India:** [Buy Me a Coffee](https://buymeacoffee.com/rushi45)
-
-Your support helps me create more projects like this! 💕
-
-## 📝 License
 
 Made with 💕 for National Princess Day
 

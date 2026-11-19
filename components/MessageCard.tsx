@@ -285,23 +285,20 @@ export default function MessageCard({
                           {/* Letter body */}
                           <div className="handwriting text-sm sm:text-base leading-relaxed text-[#1b0d14] pb-20 pt-6">
                             <div className="mb-4 text-[#f04299] font-medium">
-                              My dearest Divya,
+                              Meri Cute Husna Jii,
                             </div>
                             <div
                               className="mb-6 text-justify"
                               style={{ textIndent: '2rem' }}
                             >
-                              Every moment with you feels like a beautiful dream
-                              that I never want to wake up from. I want you to
-                              know that you are the most precious person in my
-                              life. Every day with you is a gift, and I&apos;m
+                              Happy Princess Day, my love. You are not just a princess for today you have always been the queen of my heart from day one and forever. After all these years together watching you smile is still my favorite thing in the world. My biggest dua for you is that you always stay happy, healthy and protected from every worry. May every dream you have come true and may I always be right beside you to cheer you on. Every day with you is a gift, and I&apos;m
                               grateful for every second we share together. You
                               make me want to be the best version of myself.
                             </div>
                             <div className="mt-8 ml-auto w-fit">
                               <div className="font-medium text-[#f04299]">
                                 <TypewriterText
-                                  text="With all my love, Always yours 💕"
+                                  text="Aapka pyaara Sammu 💕"
                                   duration={2}
                                   delay={0}
                                   onComplete={() =>

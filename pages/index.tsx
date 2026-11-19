@@ -6,15 +6,11 @@ import Hero from '@/components/Hero';
 import MessageCard from '@/components/MessageCard';
 import Confetti from '@/components/Confetti';
 import { Toaster } from '@/lib/toast';
-import { BuyMeSupportModal, useBuyMeSupport } from '@/components/BuyMeSupport';
 
-const CHAI_URL = 'https://buymeachai.ezee.li/rushi45';
-const COFFEE_URL = 'https://buymeacoffee.com/rushi45';
 
 export default function Home() {
   const [isGiftOpened, setIsGiftOpened] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
-  const { isOpen: isBuyMeOpen, open: openBuyMe, close: closeBuyMe } = useBuyMeSupport();
 
   const handleOpenGift = () => {
     setIsGiftOpened(true);
@@ -30,10 +26,6 @@ export default function Home() {
     setShowConfetti(false);
   };
 
-  const handleBuyMeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
-    openBuyMe();
-  };
 
   const toastOptions = {
     duration: 3000,
@@ -102,14 +94,7 @@ export default function Home() {
         )}
         <Confetti trigger={showConfetti} onComplete={handleConfettiComplete} />
 
-        <a
-          href="#"
-          onClick={handleBuyMeClick}
-          className="fixed bottom-6 right-6 z-50 inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium bg-[#9a4c73] hover:bg-[#f04299] text-white transition-all cursor-pointer rounded-full shadow-lg hover:shadow-xl hover:scale-105 active:scale-95"
-        >
-          <span>☕</span>
-          <span>Buy me a coffee</span>
-        </a>
+        
 
         <footer className="px-4 py-8 text-center text-text/60 relative z-50">
           <p className="text-sm">
@@ -120,24 +105,11 @@ export default function Home() {
               day: 'numeric',
             })}
           </p>
-          <p className="text-xs mt-2">Made with 💕 by Rushi Chudasama</p>
-          <a
-            href="#"
-            onClick={handleBuyMeClick}
-            className="inline-flex items-center gap-2 mt-4 px-4 py-2 text-sm font-medium bg-[#9a4c73]/10 hover:bg-[#9a4c73]/20 text-[#9a4c73] hover:text-[#f04299] transition-all cursor-pointer rounded-full border border-[#9a4c73]/20 hover:border-[#f04299]/40"
-          >
-            <span>☕</span>
-            <span>Buy me a coffee</span>
-          </a>
+          <p className="text-xs mt-2">Made with 💕 by Sameer Shaikh</p>
+          
         </footer>
       </main>
 
-      <BuyMeSupportModal
-        open={isBuyMeOpen}
-        onClose={closeBuyMe}
-        chaiUrl={CHAI_URL}
-        coffeeUrl={COFFEE_URL}
-      />
 
       <Toaster position="bottom-center" toastOptions={toastOptions} />
     </>

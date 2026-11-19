@@ -150,21 +150,21 @@ export default function FinalLetter({ onRestart }: FinalLetterProps) {
 
             <article className="handwriting text-sm sm:text-base text-[#1b0d14] leading-relaxed space-y-4">
               <p className="text-[#f04299] font-semibold">
-                My sweetest Cutiepie,
+                My cute little gudiya,
               </p>
               <p>
                 You&apos;re the calm I reach for and the laugh that brightens my
                 day.
               </p>
               <p className="text-[#5a9bb8]">
-                I hope this tiny world made you smile — and whispered how much
+                I hope this tiny world made you smile and whispered how much
                 you mean to me.
               </p>
               <p>
                 I&apos;ll keep making memories, big and small, always with you.
               </p>
               <p className="text-[#a67fb8]">
-                Forever yours, in every little universe.
+                Forever yours in every little universe.
               </p>
             </article>
 
